@@ -610,7 +610,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": false,
-        "zoomFactor": 0.27433470637761,
+        "zoomFactor": 0.20354162426216232,
         "windowMask": false
       },
       "objectsGroups": [
@@ -658,8 +658,8 @@
           "layer": "",
           "name": "Grass",
           "persistentUuid": "15a3b7f4-f78f-4898-9037-58d9fc07eab8",
-          "width": 1082,
-          "x": -4,
+          "width": 2125,
+          "x": -449,
           "y": -2,
           "zOrder": -200,
           "numberProperties": [],
@@ -729,13 +729,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 173,
+          "height": 94,
           "layer": "",
           "name": "Player",
           "persistentUuid": "eb3eb9c8-9e76-4d2e-89c0-600889f54713",
-          "width": 176,
-          "x": 552,
-          "y": 1802,
+          "width": 107,
+          "x": 536,
+          "y": 1624,
           "zOrder": 511,
           "numberProperties": [],
           "stringProperties": [],
@@ -748,10 +748,250 @@
           "layer": "",
           "name": "Road1",
           "persistentUuid": "918d4249-70be-4e1c-876f-3e753b7a8516",
-          "width": 1104,
-          "x": -14,
-          "y": 941,
+          "width": 1530,
+          "x": -437,
+          "y": 944,
           "zOrder": 512,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1914,
+          "layer": "",
+          "name": "CollisionDetect",
+          "persistentUuid": "78c88717-889c-4403-909c-33559d7c1694",
+          "width": 324,
+          "x": -324,
+          "y": 3,
+          "zOrder": 513,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1914,
+          "layer": "",
+          "name": "CollisionDetect",
+          "persistentUuid": "d354f8d5-c221-41da-97f7-99e1ed8537bf",
+          "width": 324,
+          "x": 1085,
+          "y": 17,
+          "zOrder": 513,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 310,
+          "layer": "",
+          "name": "House1",
+          "persistentUuid": "3a1006fb-1811-4c4e-b75d-8f155df24ee0",
+          "width": 327,
+          "x": 211,
+          "y": 1298,
+          "zOrder": 515,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 211,
+          "layer": "",
+          "name": "Tree1",
+          "persistentUuid": "e1d87171-e09a-4897-8764-acf0858ce8d1",
+          "width": 167,
+          "x": 992,
+          "y": 1899,
+          "zOrder": 516,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 211,
+          "layer": "",
+          "name": "Tree1",
+          "persistentUuid": "18fa2e86-5e53-415a-9a60-5ffe318a3cb6",
+          "width": 167,
+          "x": 984,
+          "y": 1694,
+          "zOrder": 516,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 211,
+          "layer": "",
+          "name": "Tree1",
+          "persistentUuid": "88124fea-1b18-4b3c-9d7f-fe06fdcd4f1d",
+          "width": 167,
+          "x": 94,
+          "y": 1642,
+          "zOrder": 516,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 211,
+          "layer": "",
+          "name": "Tree1",
+          "persistentUuid": "c501cdd0-a7a9-416d-8914-63c298346791",
+          "width": 167,
+          "x": 104,
+          "y": 1895,
+          "zOrder": 516,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 202,
+          "layer": "",
+          "name": "CollisionDetect",
+          "persistentUuid": "4d6fe2d2-efe7-45a7-bd89-60c5804d77b8",
+          "width": 169,
+          "x": 908,
+          "y": 1705,
+          "zOrder": 517,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 202,
+          "layer": "",
+          "name": "CollisionDetect",
+          "persistentUuid": "c14e35a7-238e-469b-999c-b5e8c1395582",
+          "width": 169,
+          "x": 14,
+          "y": 1453,
+          "zOrder": 517,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 202,
+          "layer": "",
+          "name": "CollisionDetect",
+          "persistentUuid": "ebcf5557-709a-4b56-b963-45826d8abaa9",
+          "width": 169,
+          "x": 24,
+          "y": 1704,
+          "zOrder": 517,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 598,
+          "layer": "",
+          "name": "CollisionDetect",
+          "persistentUuid": "a69b5538-3005-409f-b6d5-d5b4460e20bf",
+          "width": 1122,
+          "x": -12,
+          "y": -596,
+          "zOrder": 513,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 202,
+          "layer": "",
+          "name": "CollisionDetect",
+          "persistentUuid": "7cf3606d-b162-43ec-b4a5-2a38a28a2b13",
+          "width": 1219,
+          "x": -83,
+          "y": 1726,
+          "zOrder": 517,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 202,
+          "layer": "",
+          "name": "CollisionDetect",
+          "persistentUuid": "ab6202e4-264d-462e-b9ef-7723f7ea2abc",
+          "width": 169,
+          "x": 886,
+          "y": 1502,
+          "zOrder": 517,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 211,
+          "layer": "",
+          "name": "Tree1",
+          "persistentUuid": "5ef2fd56-d17e-4162-b368-826b7d0b4688",
+          "width": 167,
+          "x": 772,
+          "y": 1899,
+          "zOrder": 516,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 211,
+          "layer": "",
+          "name": "Tree1",
+          "persistentUuid": "5c1eb54e-86d3-462f-8366-838222bb143a",
+          "width": 167,
+          "x": 563,
+          "y": 1899,
+          "zOrder": 516,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 211,
+          "layer": "",
+          "name": "Tree1",
+          "persistentUuid": "a4d44c0f-c60a-4ca8-999c-533fd6c3c0a3",
+          "width": 167,
+          "x": 314,
+          "y": 1898,
+          "zOrder": 516,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1650,7 +1890,12 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -2305,7 +2550,7 @@
               },
               "parameters": [
                 "",
-                "3",
+                "1",
                 "",
                 ""
               ]
@@ -2382,6 +2627,26 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::AddObjectPositionXTween"
+                  },
+                  "parameters": [
+                    "House1",
+                    "Tween",
+                    "\"houseMoving\"",
+                    "50+600",
+                    "\"linear\"",
+                    "500",
+                    ""
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -2407,18 +2672,6 @@
                 "Player",
                 "=",
                 "Player.Y()"
-              ]
-            },
-            {
-              "type": {
-                "value": "CentreCamera"
-              },
-              "parameters": [
-                "",
-                "Player",
-                "",
-                "",
-                ""
               ]
             }
           ]
@@ -2663,330 +2916,6 @@
             }
           ],
           "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Dialogue",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Or"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "KeyPressed"
-                      },
-                      "parameters": [
-                        "",
-                        "e"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SpriteMultitouchJoystick::IsButtonPressed"
-                      },
-                      "parameters": [
-                        "",
-                        "1",
-                        "\"A\"",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Distance"
-                  },
-                  "parameters": [
-                    "Player",
-                    "NPC",
-                    "20",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ShowLayer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Dialogue\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "E"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "LayerVisible"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Dialogue\""
-                  ]
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AutoTyping::BitmapText_AutoTyping::StartAtBeginning"
-                      },
-                      "parameters": [
-                        "Dialogue",
-                        "BitmapText_AutoTyping",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ActivateBehavior"
-                      },
-                      "parameters": [
-                        "Player",
-                        "TopDownMovement",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "Talk.wav",
-                        "",
-                        "50",
-                        "1"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "AutoTyping::BitmapText_AutoTyping::TypingFinished"
-                      },
-                      "parameters": [
-                        "Dialogue",
-                        "BitmapText_AutoTyping",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Montre"
-                      },
-                      "parameters": [
-                        "YesButton",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Montre"
-                      },
-                      "parameters": [
-                        "NoButton",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "Visible"
-                      },
-                      "parameters": [
-                        "YesButton"
-                      ]
-                    }
-                  ],
-                  "actions": [],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
-                          },
-                          "parameters": [
-                            "YesButton",
-                            ""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
-                          },
-                          "parameters": [
-                            "Transition",
-                            "FlashTransitionPainter",
-                            "\"0;0;0\"",
-                            "1",
-                            "\"Circular\"",
-                            "\"Forward\"",
-                            "255",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Wait"
-                          },
-                          "parameters": [
-                            "1"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "PushScene"
-                          },
-                          "parameters": [
-                            "",
-                            "\"Battle\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
-                          },
-                          "parameters": [
-                            "NoButton",
-                            ""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "HideLayer"
-                          },
-                          "parameters": [
-                            "",
-                            "\"Dialogue\""
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Or"
-                      },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "value": "PanelSpriteButton::PanelSpriteButton::IsHovered"
-                          },
-                          "parameters": [
-                            "NoButton",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "PanelSpriteButton::PanelSpriteButton::IsHovered"
-                          },
-                          "parameters": [
-                            "YesButton",
-                            ""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "HoverSound.wav",
-                        "",
-                        "20",
-                        "RandomFloatInRange(0.8,0.9)"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
         }
       ],
       "layers": [
@@ -3106,6 +3035,10 @@
         {
           "name": "TopDownMultitouchMapper",
           "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ]
     },
