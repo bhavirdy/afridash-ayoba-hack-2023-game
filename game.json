@@ -14,7 +14,7 @@
     "pixelsRounding": false,
     "projectUuid": "5444279b-49a0-488e-8557-3e46e8d2da96",
     "scaleMode": "linear",
-    "sizeOnStartupMode": "",
+    "sizeOnStartupMode": "adaptWidth",
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
@@ -314,6 +314,136 @@
         "name": "New image5",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Pause button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pause button.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Shaded Light/a94ca243972d43eda47eeee117973b9f0d13c77241d64e4abc5e957997423a24_Pause button.png",
+          "name": "Pause button.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Round joystick (outer).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Round joystick (outer).png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Shaded Light/85045f68bb95e617b91d7af4e68d0b2cffd3f48794b8dd77dfec638e46f9fef9_Round joystick (outer).png",
+          "name": "Round joystick (outer).png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Transparent light joystick border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Transparent light joystick border.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Multitouch joysticks/10bb8307b196849eae402b1fbbbb71528828879912fad4836416d85d6d935e6d_Transparent light joystick border.png",
+          "name": "Transparent light joystick border.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Transparent light joystick thumb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Transparent light joystick thumb.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Multitouch joysticks/446729297d485b00428957eb0de56e66d3f5ddf8aa3092ad192f8dd670dd79f2_Transparent light joystick thumb.png",
+          "name": "Transparent light joystick thumb.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flat dark joystick border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flat dark joystick border.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Multitouch joysticks/1db606cabd7372d1494ba5934bc25bcdd72f5a213c4a27509be57c3f4d5aecca_Flat dark joystick border.png",
+          "name": "Flat dark joystick border.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flat dark joystick thumb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flat dark joystick thumb.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Multitouch joysticks/10167ade22c4a6b48324e6c1d1bd6dc74179d7bed0775890903f418b4a05c8a1_Flat dark joystick thumb.png",
+          "name": "Flat dark joystick thumb.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/D-pad left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "D-pad left.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Flat Dark/e221bb2f8b4f3f3e3f0df825936c9cd17185026629c2d6856e77afabf2b2b916_D-pad left.png",
+          "name": "D-pad left.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/D-pad right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "D-pad right.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Flat Dark/65a902c454748080c6afc30f1826e46d664c21f2aedb2dd6bc42932a91bb8470_D-pad right.png",
+          "name": "D-pad right.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/D-pad up.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "D-pad up.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Flat Dark/dca8575afcb8bca27f092dcf3d5633db366897fedc9d8bd7ff38daf3e98200a4_D-pad up.png",
+          "name": "D-pad up.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/D-pad bottom.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "D-pad bottom.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Flat Dark/c537863fdf48efd58501cf259f1cb0486dca8a9f55b86c1dd4e109e6da85ef8e_D-pad bottom.png",
+          "name": "D-pad bottom.png"
+        }
       }
     ],
     "resourceFolders": []
