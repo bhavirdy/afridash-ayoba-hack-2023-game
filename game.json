@@ -66,7 +66,7 @@
         "alwaysLoaded": false,
         "file": "assets/New image.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image.png\"}",
         "name": "New image",
         "smoothed": true,
         "userAdded": false
@@ -84,7 +84,7 @@
         "alwaysLoaded": false,
         "file": "assets/New image3.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image3.png\"}",
         "name": "New image3",
         "smoothed": true,
         "userAdded": true
@@ -496,6 +496,236 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Pixel Cars/4049f5c97749baf9f8b97a49ee106466e95b5b7a6d90efa570e350ea6dd4c75e_Sedan Grey_Moving_4.png",
           "name": "Sedan Grey_Moving_4.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tall building orange_normal left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tall building orange_normal left.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric City Pack/building/5bfe2ba3c735413211016cee4d6f2c35508c6049dba70edbdfabb77055480306_tall building orange_normal left.png",
+          "name": "tall building orange_normal left.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tall building orange_normal right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tall building orange_normal right.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric City Pack/building/632631a44c768fcc90a088a0cedbda3e91dc3f9ec9158da11358a7cee5e9acf1_tall building orange_normal right.png",
+          "name": "tall building orange_normal right.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tall building blue_damaged left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tall building blue_damaged left.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric City Pack/building/8fbc388df8cf71bbba14e67342c4b72e9edb07159619cbf9390b389e01ed8336_tall building blue_damaged left.png",
+          "name": "tall building blue_damaged left.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tall building blue_damaged right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tall building blue_damaged right.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric City Pack/building/684520b8543bb393a19b8d7bcfef9bea591e07bd2ca4788f6b7ccfd76c3ba051_tall building blue_damaged right.png",
+          "name": "tall building blue_damaged right.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tall building blue_normal left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tall building blue_normal left.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric City Pack/building/36da0ac7ee672a5e5b8657490b7db44356a1d870daa8f2b2ab8da39cd266057b_tall building blue_normal left.png",
+          "name": "tall building blue_normal left.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tall building blue_normal right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tall building blue_normal right.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric City Pack/building/1462528bf6f99405d4dfe56b60631b3598b22bc1e98c1eda46323dde2aa017b1_tall building blue_normal right.png",
+          "name": "tall building blue_normal right.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/water tower_damaged left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "water tower_damaged left.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric City Pack/building/610ceec8d0e6f6301888cd021c589eb148081cfa2fba4ea9bdf25fa342a0a12f_water tower_damaged left.png",
+          "name": "water tower_damaged left.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/water tower_damaged right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "water tower_damaged right.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric City Pack/building/0315bd25182a0970035eb6782a1e3add13df5a07e11ea1309425b84f6255daaa_water tower_damaged right.png",
+          "name": "water tower_damaged right.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/water tower_normal left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "water tower_normal left.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric City Pack/building/65e0d82f9a33216bb30d1aae3aec8a1d0d17f158311f869d12cfa3822a6c9c78_water tower_normal left.png",
+          "name": "water tower_normal left.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/water tower_normal right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "water tower_normal right.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric City Pack/building/f8d57d4f1752a3e09cf2f116188cdc9b4bb07764dcc0b7dfd9d7ff743ff46c0f_water tower_normal right.png",
+          "name": "water tower_normal right.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/traffic light_left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "traffic light_left.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric City Pack/props/997b79d561faa1a23e61247155f23c77b9fd99859128c753550ccc29b751e645_traffic light_left.png",
+          "name": "traffic light_left.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/traffic light_right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "traffic light_right.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric City Pack/props/5594236000422901df4c47652e6bebbddc44d8f18b2b0ef71ee3335dc036f1b9_traffic light_right.png",
+          "name": "traffic light_right.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/papers_a normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "papers_a normal.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric City Pack/props/a42e8d181c757fa693ed81c912bdbd82e3b84613cd0ea7f3560e09f5d480d83b_papers_a normal.png",
+          "name": "papers_a normal.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/papers_b normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "papers_b normal.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric City Pack/props/f80f41b3f7949a2492a60e68f429ddd425967a1b3367595c69bce77a22d6763b_papers_b normal.png",
+          "name": "papers_b normal.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/papers_c normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "papers_c normal.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric City Pack/props/87394904987e7964c30a4e6ac6bab7397f7044a39b4e19a31fdf3dcd95174dbd_papers_c normal.png",
+          "name": "papers_c normal.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/trash bag_a.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "trash bag_a.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric City Pack/props/cab34ca4205c6ad7501be0244c294e921906d75b099b629a1de3c55730c3627b_trash bag_a.png",
+          "name": "trash bag_a.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/trash bag_b.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "trash bag_b.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric City Pack/props/9a5739618cec317b74336dbde6192f572a1eebe8ebccfc36384139350f3e207d_trash bag_b.png",
+          "name": "trash bag_b.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image6",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
