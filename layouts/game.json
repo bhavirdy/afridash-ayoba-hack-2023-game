@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.11131182576837012,
+    "zoomFactor": 0.10416820751496428,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -252,6 +252,21 @@
       "x": 268,
       "y": 1306,
       "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "GameOver",
+      "name": "GameOver",
+      "persistentUuid": "6a15f18f-cbe6-42d5-a7c7-22a428f2c0a0",
+      "width": 0,
+      "x": 252,
+      "y": 625,
+      "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1793,7 +1808,7 @@
     },
     {
       "assetStoreId": "",
-      "bold": false,
+      "bold": true,
       "italic": false,
       "name": "GameOver",
       "smoothed": true,
@@ -1927,6 +1942,15 @@
             "gamePaused",
             "=",
             "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"GameOver\""
           ]
         }
       ],
@@ -2315,14 +2339,11 @@
         },
         {
           "type": {
-            "value": "Create"
+            "value": "ShowLayer"
           },
           "parameters": [
             "",
-            "GameOver",
-            "250",
-            "1000",
-            ""
+            "\"GameOver\""
           ]
         }
       ]
@@ -2365,14 +2386,11 @@
         },
         {
           "type": {
-            "value": "Create"
+            "value": "ShowLayer"
           },
           "parameters": [
             "",
-            "GameOver",
-            "250",
-            "1000",
-            ""
+            "\"GameOver\""
           ]
         }
       ]
@@ -2787,6 +2805,22 @@
       "isLightingLayer": false,
       "isLocked": false,
       "name": "UI",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 1701470831,
+      "ambientLightColorG": 150995058,
+      "ambientLightColorR": 6071872,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "GameOver",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
