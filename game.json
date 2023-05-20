@@ -7,14 +7,14 @@
     "revision": 0
   },
   "properties": {
-    "adaptGameResolutionAtRuntime": true,
+    "adaptGameResolutionAtRuntime": false,
     "folderProject": true,
     "orientation": "portrait",
     "packageName": "com.example.gamename",
     "pixelsRounding": false,
     "projectUuid": "5444279b-49a0-488e-8557-3e46e8d2da96",
     "scaleMode": "linear",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "",
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
@@ -443,6 +443,58 @@
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Flat Dark/c537863fdf48efd58501cf259f1cb0486dca8a9f55b86c1dd4e109e6da85ef8e_D-pad bottom.png",
           "name": "D-pad bottom.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Sedan Grey_Moving_1.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Sedan Grey_Moving_1.png\",\"extension\":\".png\"}",
+        "name": "Sedan Grey_Moving_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Pixel Cars/dbee015b5ddd2d54646b71e4816fe7f94c4d660fb73f88c587b5c73b9f8295de_Sedan Grey_Moving_1.png",
+          "name": "Sedan Grey_Moving_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Sedan Grey_Moving_2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Sedan Grey_Moving_2.png\",\"extension\":\".png\"}",
+        "name": "Sedan Grey_Moving_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Pixel Cars/c59faaeb195757bf1f6dcf6ba59db86d4a61fb20fa8d5a8d083ff50f3571531b_Sedan Grey_Moving_2.png",
+          "name": "Sedan Grey_Moving_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Sedan Grey_Moving_3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Sedan Grey_Moving_3.png\",\"extension\":\".png\"}",
+        "name": "Sedan Grey_Moving_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Pixel Cars/4dc67a1a70e71908e655096043ca1f9c1cce9303ed9d712d04917b31417d33a2_Sedan Grey_Moving_3.png",
+          "name": "Sedan Grey_Moving_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Sedan Grey_Moving_4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Sedan Grey_Moving_4.png\",\"extension\":\".png\"}",
+        "name": "Sedan Grey_Moving_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Pixel Cars/4049f5c97749baf9f8b97a49ee106466e95b5b7a6d90efa570e350ea6dd4c75e_Sedan Grey_Moving_4.png",
+          "name": "Sedan Grey_Moving_4.png"
         }
       }
     ],
