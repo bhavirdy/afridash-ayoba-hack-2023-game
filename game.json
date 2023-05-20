@@ -75,7 +75,7 @@
     },
     "watermark": {
       "placement": "bottom-left",
-      "showWatermark": true
+      "showWatermark": false
     },
     "authorIds": [],
     "authorUsernames": [],
@@ -610,7 +610,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": false,
-        "zoomFactor": 0.20354162426216232,
+        "zoomFactor": 0.2653858092897484,
         "windowMask": false
       },
       "objectsGroups": [
@@ -748,8 +748,8 @@
           "layer": "",
           "name": "Road1",
           "persistentUuid": "918d4249-70be-4e1c-876f-3e753b7a8516",
-          "width": 1530,
-          "x": -437,
+          "width": 1107,
+          "x": -14,
           "y": 944,
           "zOrder": 512,
           "numberProperties": [],
@@ -774,13 +774,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 1914,
+          "height": 1924,
           "layer": "",
           "name": "CollisionDetect",
           "persistentUuid": "d354f8d5-c221-41da-97f7-99e1ed8537bf",
           "width": 324,
           "x": 1085,
-          "y": 17,
+          "y": 7,
           "zOrder": 513,
           "numberProperties": [],
           "stringProperties": [],
@@ -2131,7 +2131,12 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -2640,7 +2645,7 @@
                     "House1",
                     "Tween",
                     "\"houseMoving\"",
-                    "50+600",
+                    "House1.X()+600",
                     "\"linear\"",
                     "500",
                     ""
