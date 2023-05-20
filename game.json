@@ -939,13 +939,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 202,
+          "height": 211,
           "layer": "",
           "name": "CollisionDetect",
           "persistentUuid": "ab6202e4-264d-462e-b9ef-7723f7ea2abc",
-          "width": 169,
-          "x": 886,
-          "y": 1502,
+          "width": 178,
+          "x": 900,
+          "y": 1488,
           "zOrder": 517,
           "numberProperties": [],
           "stringProperties": [],
@@ -995,6 +995,21 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 326,
+          "layer": "",
+          "name": "CollisionDetect2",
+          "persistentUuid": "562437c5-5b49-403e-be98-09fbebe20193",
+          "width": 335,
+          "x": 25,
+          "y": 1006,
+          "zOrder": 518,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -1008,9 +1023,9 @@
           "effects": [],
           "behaviors": [
             {
-              "maxSpeed": 700,
               "name": "TopDownMovement",
               "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+              "maxSpeed": 700,
               "acceleration": 900000,
               "allowDiagonals": false,
               "angleOffset": 0,
@@ -2131,7 +2146,58 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Enemy_Spawn_Location.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "CollisionDetect2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -2640,8 +2706,22 @@
                     "House1",
                     "Tween",
                     "\"houseMoving\"",
-                    "50+600",
+                    "House1.X() + 600",
                     "\"linear\"",
+                    "500",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::AddObjectPositionXTween"
+                  },
+                  "parameters": [
+                    "CollisionDetect2",
+                    "Tween",
+                    "\"housebarrier\"",
+                    "CollisionDetect2.X()+600",
+                    "\"Linear\"",
                     "500",
                     ""
                   ]
@@ -2672,6 +2752,16 @@
                 "Player",
                 "=",
                 "Player.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Player",
+                "CollisionDetect2",
+                ""
               ]
             }
           ]
