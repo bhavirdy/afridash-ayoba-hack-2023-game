@@ -1,0 +1,34 @@
+{
+  "associatedLayout": "Game",
+  "name": "Road2",
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 400,
+      "layer": "",
+      "name": "Road2",
+      "persistentUuid": "473b7ad1-8afd-46bd-b234-f71b097478ee",
+      "width": 1346,
+      "x": -92,
+      "y": 454,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "editionSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.23689563725446555,
+    "windowMask": false
+  }
+}
