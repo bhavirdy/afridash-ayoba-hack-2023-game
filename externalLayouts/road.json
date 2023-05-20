@@ -9,9 +9,9 @@
       "layer": "",
       "name": "Road",
       "persistentUuid": "f176e2e7-7084-4b9a-8aee-0d914ec3e289",
-      "width": 4114,
-      "x": -1472,
-      "y": 1000,
+      "width": 1116,
+      "x": -14,
+      "y": 1321,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -35,7 +35,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.22169247275005152,
+    "zoomFactor": 0.15911838846838547,
     "windowMask": false
   }
 }
