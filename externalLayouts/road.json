@@ -1,0 +1,41 @@
+{
+  "associatedLayout": "Game",
+  "name": "Road",
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 400,
+      "layer": "",
+      "name": "Road",
+      "persistentUuid": "f176e2e7-7084-4b9a-8aee-0d914ec3e289",
+      "width": 1128,
+      "x": -19,
+      "y": 1135,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "SpawnDelay",
+          "type": "number",
+          "value": 0
+        }
+      ]
+    }
+  ],
+  "editionSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.22169247275005152,
+    "windowMask": false
+  }
+}
