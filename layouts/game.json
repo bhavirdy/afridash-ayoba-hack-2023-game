@@ -670,7 +670,13 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "extraBorder": 0,
+          "name": "DestroyOutside",
+          "type": "DestroyOutsideBehavior::DestroyOutside"
+        }
+      ],
       "animations": [
         {
           "name": "Moving",
@@ -973,6 +979,105 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "4a9dccab0b0aa459bf9ff5d59de9d19de4aa9ad6145d532d44f820f907811823",
+      "name": "SedanGrey",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "extraBorder": 0,
+          "name": "DestroyOutside",
+          "type": "DestroyOutsideBehavior::DestroyOutside"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Moving",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.125,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sedan Grey_Moving_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 15,
+                    "y": 11
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sedan Grey_Moving_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 15,
+                    "y": 11
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sedan Grey_Moving_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 15,
+                    "y": 11
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sedan Grey_Moving_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 15,
+                    "y": 11
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -1020,6 +1125,58 @@
             "no"
           ]
         }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SystemInfo::IsMobile"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "DPadLeft",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "DPadRight",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "DPadUp",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "DPadBottom",
+                ""
+              ]
+            }
+          ]
+        }
       ]
     },
     {
@@ -1064,8 +1221,8 @@
           "parameters": [
             "",
             "SportsCarRed",
-            "-150",
-            "Road.Y()+70",
+            "-159",
+            "Road.Y()+20",
             ""
           ]
         },
@@ -1085,7 +1242,7 @@
           },
           "parameters": [
             "SportsCarRed",
-            "400",
+            "600",
             "0",
             "1"
           ]
@@ -1107,7 +1264,7 @@
             "Road",
             "SpawnDelay",
             "=",
-            "RandomInRange(5,10)"
+            "RandomInRange(1,3)"
           ]
         }
       ]
@@ -1153,9 +1310,9 @@
           },
           "parameters": [
             "",
-            "SportsCarRed",
-            "-150",
-            "Road2.Y()+70",
+            "SedanGrey",
+            "1080",
+            "Road2.Y()+20",
             ""
           ]
         },
@@ -1164,7 +1321,7 @@
             "value": "ChangeScale"
           },
           "parameters": [
-            "SportsCarRed",
+            "SedanGrey",
             "*",
             "8"
           ]
@@ -1174,8 +1331,8 @@
             "value": "AddForceXY"
           },
           "parameters": [
-            "SportsCarRed",
-            "450",
+            "SedanGrey",
+            "-700",
             "0",
             "1"
           ]
@@ -1197,7 +1354,7 @@
             "Road2",
             "SpawnDelay",
             "=",
-            "RandomInRange(5,10)"
+            "RandomInRange(1,2)"
           ]
         }
       ]
@@ -1238,6 +1395,35 @@
           "parameters": [
             "Player",
             "SportsCarRed",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "SedanGrey",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Player",
+            "SedanGrey",
             ""
           ]
         }
