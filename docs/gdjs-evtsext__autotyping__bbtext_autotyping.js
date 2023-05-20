@@ -1173,7 +1173,7 @@ gdjs.evtsExt__AutoTyping__BBText_AutoTyping.BBText_AutoTyping.prototype.ChangeIn
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(16348404);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(13408436);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__AutoTyping__BBText_AutoTyping.BBText_AutoTyping.prototype.ChangeIntervalContext.GDObjectObjects1);

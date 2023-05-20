@@ -5,6 +5,9 @@ gdjs.OverworldCode.GDTransitionObjects3= [];
 gdjs.OverworldCode.GDTextBorderObjects1= [];
 gdjs.OverworldCode.GDTextBorderObjects2= [];
 gdjs.OverworldCode.GDTextBorderObjects3= [];
+gdjs.OverworldCode.GDSchoolBusObjects1= [];
+gdjs.OverworldCode.GDSchoolBusObjects2= [];
+gdjs.OverworldCode.GDSchoolBusObjects3= [];
 gdjs.OverworldCode.GDPlayerObjects1= [];
 gdjs.OverworldCode.GDPlayerObjects2= [];
 gdjs.OverworldCode.GDPlayerObjects3= [];
@@ -23,12 +26,6 @@ gdjs.OverworldCode.GDTree2Objects3= [];
 gdjs.OverworldCode.GDBush1Objects1= [];
 gdjs.OverworldCode.GDBush1Objects2= [];
 gdjs.OverworldCode.GDBush1Objects3= [];
-gdjs.OverworldCode.GDHouse1Objects1= [];
-gdjs.OverworldCode.GDHouse1Objects2= [];
-gdjs.OverworldCode.GDHouse1Objects3= [];
-gdjs.OverworldCode.GDHouse2Objects1= [];
-gdjs.OverworldCode.GDHouse2Objects2= [];
-gdjs.OverworldCode.GDHouse2Objects3= [];
 gdjs.OverworldCode.GDCornerWaterObjects1= [];
 gdjs.OverworldCode.GDCornerWaterObjects2= [];
 gdjs.OverworldCode.GDCornerWaterObjects3= [];
@@ -80,6 +77,9 @@ gdjs.OverworldCode.GDShadedDarkJoystickObjects3= [];
 gdjs.OverworldCode.GDTargetRoundButtonObjects1= [];
 gdjs.OverworldCode.GDTargetRoundButtonObjects2= [];
 gdjs.OverworldCode.GDTargetRoundButtonObjects3= [];
+gdjs.OverworldCode.GDCarPeachObjects1= [];
+gdjs.OverworldCode.GDCarPeachObjects2= [];
+gdjs.OverworldCode.GDCarPeachObjects3= [];
 
 
 gdjs.OverworldCode.eventsList0 = function(runtimeScene) {
@@ -110,9 +110,9 @@ for(var i = 0, len = gdjs.OverworldCode.GDTargetRoundButtonObjects2.length ;i < 
 let isConditionTrue_0 = false;
 {
 gdjs.copyArray(runtimeScene.getObjects("CollisionDetect2"), gdjs.OverworldCode.GDCollisionDetect2Objects1);
-/* Reuse gdjs.OverworldCode.GDHouse1Objects1 */
-{for(var i = 0, len = gdjs.OverworldCode.GDHouse1Objects1.length ;i < len;++i) {
-    gdjs.OverworldCode.GDHouse1Objects1[i].getBehavior("Tween").addObjectPositionXTween("houseMoving", (gdjs.OverworldCode.GDHouse1Objects1[i].getPointX("")) + 600, "linear", 500, false);
+gdjs.copyArray(runtimeScene.getObjects("SchoolBus"), gdjs.OverworldCode.GDSchoolBusObjects1);
+{for(var i = 0, len = gdjs.OverworldCode.GDSchoolBusObjects1.length ;i < len;++i) {
+    gdjs.OverworldCode.GDSchoolBusObjects1[i].getBehavior("Tween").addObjectPositionXTween("MovingBus", (gdjs.OverworldCode.GDSchoolBusObjects1[i].getPointX("")) + 600, "linear", 500, false);
 }
 }{for(var i = 0, len = gdjs.OverworldCode.GDCollisionDetect2Objects1.length ;i < len;++i) {
     gdjs.OverworldCode.GDCollisionDetect2Objects1[i].getBehavior("Tween").addObjectPositionXTween("housebarrier", (gdjs.OverworldCode.GDCollisionDetect2Objects1[i].getPointX("")) + 600, "Linear", 500, false);
@@ -131,7 +131,7 @@ gdjs.OverworldCode.eventsList1 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16324908);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10872308);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("E"), gdjs.OverworldCode.GDEObjects2);
@@ -330,8 +330,6 @@ isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Bush1"), gdjs.OverworldCode.GDBush1Objects1);
 gdjs.copyArray(runtimeScene.getObjects("E"), gdjs.OverworldCode.GDEObjects1);
-gdjs.copyArray(runtimeScene.getObjects("House1"), gdjs.OverworldCode.GDHouse1Objects1);
-gdjs.copyArray(runtimeScene.getObjects("House2"), gdjs.OverworldCode.GDHouse2Objects1);
 gdjs.copyArray(runtimeScene.getObjects("NPC"), gdjs.OverworldCode.GDNPCObjects1);
 gdjs.copyArray(runtimeScene.getObjects("Tree1"), gdjs.OverworldCode.GDTree1Objects1);
 gdjs.copyArray(runtimeScene.getObjects("Tree2"), gdjs.OverworldCode.GDTree2Objects1);
@@ -344,12 +342,6 @@ for(var i = 0, len = gdjs.OverworldCode.GDBush1Objects1.length ;i < len;++i) {
 }
 for(var i = 0, len = gdjs.OverworldCode.GDTree2Objects1.length ;i < len;++i) {
     gdjs.OverworldCode.GDTree2Objects1[i].setZOrder((gdjs.OverworldCode.GDTree2Objects1[i].getPointY("")));
-}
-for(var i = 0, len = gdjs.OverworldCode.GDHouse1Objects1.length ;i < len;++i) {
-    gdjs.OverworldCode.GDHouse1Objects1[i].setZOrder((gdjs.OverworldCode.GDHouse1Objects1[i].getPointY("")));
-}
-for(var i = 0, len = gdjs.OverworldCode.GDHouse2Objects1.length ;i < len;++i) {
-    gdjs.OverworldCode.GDHouse2Objects1[i].setZOrder((gdjs.OverworldCode.GDHouse2Objects1[i].getPointY("")));
 }
 for(var i = 0, len = gdjs.OverworldCode.GDNPCObjects1.length ;i < len;++i) {
     gdjs.OverworldCode.GDNPCObjects1[i].setZOrder((gdjs.OverworldCode.GDNPCObjects1[i].getPointY("")));
@@ -407,6 +399,9 @@ gdjs.OverworldCode.GDTransitionObjects3.length = 0;
 gdjs.OverworldCode.GDTextBorderObjects1.length = 0;
 gdjs.OverworldCode.GDTextBorderObjects2.length = 0;
 gdjs.OverworldCode.GDTextBorderObjects3.length = 0;
+gdjs.OverworldCode.GDSchoolBusObjects1.length = 0;
+gdjs.OverworldCode.GDSchoolBusObjects2.length = 0;
+gdjs.OverworldCode.GDSchoolBusObjects3.length = 0;
 gdjs.OverworldCode.GDPlayerObjects1.length = 0;
 gdjs.OverworldCode.GDPlayerObjects2.length = 0;
 gdjs.OverworldCode.GDPlayerObjects3.length = 0;
@@ -425,12 +420,6 @@ gdjs.OverworldCode.GDTree2Objects3.length = 0;
 gdjs.OverworldCode.GDBush1Objects1.length = 0;
 gdjs.OverworldCode.GDBush1Objects2.length = 0;
 gdjs.OverworldCode.GDBush1Objects3.length = 0;
-gdjs.OverworldCode.GDHouse1Objects1.length = 0;
-gdjs.OverworldCode.GDHouse1Objects2.length = 0;
-gdjs.OverworldCode.GDHouse1Objects3.length = 0;
-gdjs.OverworldCode.GDHouse2Objects1.length = 0;
-gdjs.OverworldCode.GDHouse2Objects2.length = 0;
-gdjs.OverworldCode.GDHouse2Objects3.length = 0;
 gdjs.OverworldCode.GDCornerWaterObjects1.length = 0;
 gdjs.OverworldCode.GDCornerWaterObjects2.length = 0;
 gdjs.OverworldCode.GDCornerWaterObjects3.length = 0;
@@ -482,6 +471,9 @@ gdjs.OverworldCode.GDShadedDarkJoystickObjects3.length = 0;
 gdjs.OverworldCode.GDTargetRoundButtonObjects1.length = 0;
 gdjs.OverworldCode.GDTargetRoundButtonObjects2.length = 0;
 gdjs.OverworldCode.GDTargetRoundButtonObjects3.length = 0;
+gdjs.OverworldCode.GDCarPeachObjects1.length = 0;
+gdjs.OverworldCode.GDCarPeachObjects2.length = 0;
+gdjs.OverworldCode.GDCarPeachObjects3.length = 0;
 
 gdjs.OverworldCode.eventsList3(runtimeScene);
 
