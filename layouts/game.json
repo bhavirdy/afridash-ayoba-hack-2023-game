@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.36732575450588234,
+    "zoomFactor": 0.11131182576837012,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -49,13 +49,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 230,
+      "height": 165,
       "layer": "",
       "name": "Player",
       "persistentUuid": "e91332e8-8761-4425-8736-8ead2ee82cac",
-      "width": 278,
-      "x": 430,
-      "y": 1628,
+      "width": 156,
+      "x": 552,
+      "y": 1693,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -807,9 +807,9 @@
       "effects": [],
       "behaviors": [
         {
-          "extraBorder": 0,
           "name": "DestroyOutside",
-          "type": "DestroyOutsideBehavior::DestroyOutside"
+          "type": "DestroyOutsideBehavior::DestroyOutside",
+          "extraBorder": 0
         }
       ],
       "animations": [
@@ -1125,9 +1125,9 @@
       "effects": [],
       "behaviors": [
         {
-          "extraBorder": 0,
           "name": "DestroyOutside",
-          "type": "DestroyOutsideBehavior::DestroyOutside"
+          "type": "DestroyOutsideBehavior::DestroyOutside",
+          "extraBorder": 0
         }
       ],
       "animations": [
@@ -1790,6 +1790,28 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "GameOver",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "GAME\n\nOVER",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 200,
+      "color": {
+        "b": 26,
+        "g": 187,
+        "r": 196
+      }
     }
   ],
   "events": [
@@ -1835,6 +1857,76 @@
           "parameters": [
             "",
             "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "movingCamera",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "movingSpeed",
+            "=",
+            "10"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "increasedSpeedPerScore",
+            "=",
+            "0.5"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "maxMovingSpeed",
+            "=",
+            "100"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "topY",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "gameRunning",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "gamePaused",
+            "=",
+            "0"
           ]
         }
       ],
@@ -1890,6 +1982,108 @@
           ]
         }
       ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Camera movement",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarScene"
+          },
+          "parameters": [
+            "movingCamera",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "totalMovingSpeed",
+            "=",
+            "min(Variable(movingSpeed) + Variable(increasedSpeedPerScore)*Variable(score), Variable(maxMovingSpeed))"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCameraCenterY"
+          },
+          "parameters": [
+            "",
+            "-",
+            "Variable(totalMovingSpeed)*TimeDelta()",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarScene"
+          },
+          "parameters": [
+            "gameRunning",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "CameraCenterY"
+          },
+          "parameters": [
+            "",
+            ">",
+            "Player.Y()",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetCameraCenterY"
+          },
+          "parameters": [
+            "",
+            "=",
+            "Player.Y()",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Road",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2109,6 +2303,27 @@
             "SportsCarRed",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Player",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "GameOver",
+            "250",
+            "1000",
+            ""
+          ]
         }
       ]
     },
@@ -2136,6 +2351,114 @@
           "parameters": [
             "Player",
             "SedanGrey",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Player",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "GameOver",
+            "250",
+            "1000",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "TallBuildingOrange",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Player",
+            "TallBuildingOrange",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "WaterTower",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Player",
+            "WaterTower",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "TallBuildingBlue",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Player",
+            "TallBuildingBlue",
             ""
           ]
         }
