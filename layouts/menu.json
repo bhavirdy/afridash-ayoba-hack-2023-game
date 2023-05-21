@@ -47,8 +47,8 @@
       "name": "StartButton",
       "persistentUuid": "70d73cb9-f627-48cb-a1d3-a41fcddd80df",
       "width": 600,
-      "x": 268,
-      "y": 796,
+      "x": 318,
+      "y": 864,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -56,70 +56,6 @@
     }
   ],
   "objects": [
-    {
-      "assetStoreId": "b44dba91245ff1ac84a7b450e078194f19321d135fd8a67cd19bc9cb3403fba5",
-      "name": "PlayButton",
-      "tags": "",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "LeftPadding": 16,
-        "RightPadding": 16,
-        "PressedLabelOffsetY": 10,
-        "BottomPadding": 32,
-        "TopPadding": 16,
-        "HoveredFadeOutDuration": 0.25
-      },
-      "childrenContent": {
-        "Hovered": {
-          "bottomMargin": 32,
-          "height": 106,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "Green Button_Hovered.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 256
-        },
-        "Idle": {
-          "bottomMargin": 32,
-          "height": 106,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "Green Button_Idle.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 256
-        },
-        "Label": {
-          "bold": true,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "Play",
-          "font": "",
-          "textAlignment": "center",
-          "characterSize": 100,
-          "color": {
-            "b": 29,
-            "g": 99,
-            "r": 62
-          }
-        },
-        "Pressed": {
-          "bottomMargin": 16,
-          "height": 106,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "Green Button_Pressed.png",
-          "tiled": true,
-          "topMargin": 32,
-          "width": 256
-        }
-      }
-    },
     {
       "assetStoreId": "",
       "height": 2000,
@@ -139,7 +75,18 @@
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 0,
+          "name": "Anchor",
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 3,
+          "type": "AnchorBehavior::AnchorBehavior",
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
       "content": {
         "LeftPadding": 16,
         "RightPadding": 16,
@@ -222,6 +169,18 @@
             "",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "StartButton",
+            "=",
+            "540",
+            "=",
+            "960"
+          ]
         }
       ]
     },
@@ -280,5 +239,10 @@
       "effects": []
     }
   ],
-  "behaviorsSharedData": []
+  "behaviorsSharedData": [
+    {
+      "name": "Anchor",
+      "type": "AnchorBehavior::AnchorBehavior"
+    }
+  ]
 }
