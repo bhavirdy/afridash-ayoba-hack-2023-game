@@ -804,6 +804,16 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "533034__evretro__8-bit-game-over-soundtune.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "533034__evretro__8-bit-game-over-soundtune.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

@@ -2076,12 +2076,13 @@
         },
         {
           "type": {
-            "value": "PlayMusic"
+            "value": "PlayMusicCanal"
           },
           "parameters": [
             "",
             "476548__mrthenoronha__platform-game-theme-loop-4.wav",
-            "yes",
+            "1",
+            "",
             "",
             ""
           ]
@@ -2486,6 +2487,27 @@
             "",
             "\"GameOver\""
           ]
+        },
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "533034__evretro__8-bit-game-over-soundtune.wav",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "StopMusicCanal"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
         }
       ]
     },
@@ -2532,6 +2554,27 @@
           "parameters": [
             "",
             "\"GameOver\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "533034__evretro__8-bit-game-over-soundtune.wav",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "StopMusicCanal"
+          },
+          "parameters": [
+            "",
+            "1"
           ]
         }
       ]
