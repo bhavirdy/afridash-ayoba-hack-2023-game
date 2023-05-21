@@ -93,7 +93,7 @@
         "alwaysLoaded": false,
         "file": "assets/Male Character 11_Walking Down_1.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Male Character 11_Walking Down_1.png\",\"extension\":\".png\"}",
         "name": "Male Character 11_Walking Down_1.png",
         "smoothed": false,
         "userAdded": false,
@@ -106,7 +106,7 @@
         "alwaysLoaded": false,
         "file": "assets/Male Character 11_Walking Down_2.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Male Character 11_Walking Down_2.png\",\"extension\":\".png\"}",
         "name": "Male Character 11_Walking Down_2.png",
         "smoothed": false,
         "userAdded": false,
@@ -119,7 +119,7 @@
         "alwaysLoaded": false,
         "file": "assets/Male Character 11_Walking Down_3.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Male Character 11_Walking Down_3.png\",\"extension\":\".png\"}",
         "name": "Male Character 11_Walking Down_3.png",
         "smoothed": false,
         "userAdded": false,
@@ -814,6 +814,147 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walking Down.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walking Down",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walking Down2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walking Down2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walking Down3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walking Down3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Coin_Spinning_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Coin_Spinning_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/94964ad7d375846e33b83466a6c4cfef0008d41bccb06b77a688ed332a0fc146_Coin_Spinning_1.png",
+          "name": "Coin_Spinning_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Coin_Spinning_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Coin_Spinning_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/783ae928818b413222fe317bf645621f8bca0fb2f4370e5422769e54aea728c9_Coin_Spinning_2.png",
+          "name": "Coin_Spinning_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Coin_Spinning_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Coin_Spinning_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/920d83ede0fce8918cbb549f6640515bb19d31a1b11739802f643c19aaeace90_Coin_Spinning_3.png",
+          "name": "Coin_Spinning_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Coin_Spinning_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Coin_Spinning_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/800750a2b00389e9b31788cc5333882824d0b1c71dbd22a2459ad0c27669b626_Coin_Spinning_4.png",
+          "name": "Coin_Spinning_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Coin_Spinning_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Coin_Spinning_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/79d84bd19df8d562526a3242e4dfd4cc1b477d6ba57b5c6df2561345a4daa707_Coin_Spinning_5.png",
+          "name": "Coin_Spinning_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Coin_Spinning_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Coin_Spinning_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/800750a2b00389e9b31788cc5333882824d0b1c71dbd22a2459ad0c27669b626_Coin_Spinning_6.png",
+          "name": "Coin_Spinning_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Coin_Spinning_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Coin_Spinning_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/920d83ede0fce8918cbb549f6640515bb19d31a1b11739802f643c19aaeace90_Coin_Spinning_7.png",
+          "name": "Coin_Spinning_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Coin_Spinning_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Coin_Spinning_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/783ae928818b413222fe317bf645621f8bca0fb2f4370e5422769e54aea728c9_Coin_Spinning_8.png",
+          "name": "Coin_Spinning_8.png"
+        }
+      },
+      {
+        "file": "341695__projectsu012__coins-1.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "341695__projectsu012__coins-1.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
