@@ -304,13 +304,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 179,
+      "height": 194,
       "layer": "GameOver",
       "name": "RetryButton",
       "persistentUuid": "cd6b1264-f3f1-4785-bfb2-b8a352c8e013",
       "width": 432,
-      "x": 346,
-      "y": 1455,
+      "x": 576,
+      "y": 1445,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -417,6 +417,21 @@
       "x": 82,
       "y": 680,
       "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 194,
+      "layer": "GameOver",
+      "name": "MenuButton",
+      "persistentUuid": "46e73134-24fb-4352-959f-f72daf59b171",
+      "width": 430,
+      "x": 104,
+      "y": 1446,
+      "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1958,14 +1973,14 @@
           "width": 256
         },
         "Label": {
-          "bold": false,
+          "bold": true,
           "italic": false,
           "smoothed": true,
           "underlined": false,
           "string": "Retry",
           "font": "",
           "textAlignment": "center",
-          "characterSize": 60,
+          "characterSize": 80,
           "color": {
             "b": 42,
             "g": 87,
@@ -2227,6 +2242,70 @@
         "b": 0,
         "g": 0,
         "r": 0
+      }
+    },
+    {
+      "assetStoreId": "615de0316452630b9f4f6a39decc82e2449b82c1afd1ff24d6470dad2922177b",
+      "name": "MenuButton",
+      "tags": "",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 10,
+        "BottomPadding": 32,
+        "TopPadding": 16,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Yellow Button_Hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Idle": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Yellow Button_Idle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Label": {
+          "bold": true,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Menu",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 80,
+          "color": {
+            "b": 42,
+            "g": 87,
+            "r": 139
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Yellow Button_Pressed.png",
+          "tiled": true,
+          "topMargin": 32,
+          "width": 256
+        }
       }
     }
   ],
@@ -3506,6 +3585,31 @@
             "",
             "",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "MenuButton",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PushScene"
+          },
+          "parameters": [
+            "",
+            "\"LevelSelect\""
           ]
         }
       ]
