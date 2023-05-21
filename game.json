@@ -955,6 +955,185 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Button_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/bff6adc488c7379b21ceba34e9104e861791b2fbb54b4aae167fe90115b92fa3_Green Button_Hovered.png",
+          "name": "Green Button_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Button_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/f46d20e99495562ee66ee2f26defdb0788588184bd30b1f7b951ae728ce63d2a_Green Button_Idle.png",
+          "name": "Green Button_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Button_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/ecb33703984d3107196efce7335025d7ec104351fe8cdeb581c73fe0b8038c34_Green Button_Pressed.png",
+          "name": "Green Button_Pressed.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "afridash.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "afridash.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image8.png\"}",
+        "name": "New image8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image9",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Info.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Info.png\",\"extension\":\".png\"}",
+        "name": "Info.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/6e67cc5148aff9ad7240e45196ff8d66c0db1286fc544840c0ad5a63cf77fa08_Info.png",
+          "name": "Info.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Previous.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Previous.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/495a9a83cb385d642dd3bb7d5fe0811388506c3a5f263cf636e85670069c5d80_Previous.png",
+          "name": "Previous.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Arrow_Down.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Arrow_Down.png\",\"extension\":\".png\"}",
+        "name": "Arrow_Down.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/d3fb68b75ad1b0642d0f1cd8bac75bb9e0569b9ced849b3cabbbe28a0ade2d24_Arrow_Down.png",
+          "name": "Arrow_Down.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Arrow_Left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Arrow_Left.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/5ea4dd66c25ef6448400fc835ad39b59f1d57f8a5d2071f70d9f30acf50e4b44_Arrow_Left.png",
+          "name": "Arrow_Left.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Arrow_Right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Arrow_Right.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/3ac4ccfca394be1b0e90c245ed85246d69ad1324d0cc398d74b9a944f9e14605_Arrow_Right.png",
+          "name": "Arrow_Right.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Arrow_Up.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Arrow_Up.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/7b383cecdb349d0af940cdb58305e1a349e4a79293f3d2ffedf6ddedc30cf738_Arrow_Up.png",
+          "name": "Arrow_Up.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Square White Toggle_Off.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square White Toggle_Off.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/pixel art/e88334de6c9ad921b4719b34a512d70b923fcf36112610a7f9ed4d56aa77cfd0_Square White Toggle_Off.png",
+          "name": "Square White Toggle_Off.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Square White Toggle_On.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square White Toggle_On.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/pixel art/ebdb63dcba9c53d41a0a468ba28929bf88b1b8698d672fc17568723fe1fbc3cc_Square White Toggle_On.png",
+          "name": "Square White Toggle_On.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -965,11 +1144,23 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/menu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/levelselect"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/game"
     }
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/spritetoggleswitch"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
