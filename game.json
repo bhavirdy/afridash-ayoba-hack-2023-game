@@ -7,14 +7,14 @@
     "revision": 0
   },
   "properties": {
-    "adaptGameResolutionAtRuntime": true,
+    "adaptGameResolutionAtRuntime": false,
     "folderProject": true,
     "orientation": "portrait",
     "packageName": "com.example.gamename",
     "pixelsRounding": false,
     "projectUuid": "5444279b-49a0-488e-8557-3e46e8d2da96",
     "scaleMode": "linear",
-    "sizeOnStartupMode": "adaptHeight",
+    "sizeOnStartupMode": "",
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
