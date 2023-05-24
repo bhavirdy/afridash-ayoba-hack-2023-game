@@ -16,4 +16,7 @@ To start using _AfriDash_, follow these steps:
 3. In the GDevelop 5 App, open the game.json file located in the cloned repository.
 4. Explore, modify, and build upon the game using GDevelop 5's intuitive interface.
 
+# Current Build
+The current build of AfriDash is available for playing at the following URL: https://josephgwara.github.io/Four-Ayobas/
+
 We encourage you to contribute, improve, and customize _AfriDash_ to make it an even more thrilling and immersive gaming experience.
