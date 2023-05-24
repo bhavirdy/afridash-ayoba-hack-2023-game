@@ -2,6 +2,7 @@
 _AfriDash_ is a mobile browser game developed using GDevelop 5. 
 
 This game was created for the Ayoba International Gaming Hackathon 2023 (https://ayobagaminghack.gklink.co/), where it secured a place in the top 10 out of 42 participating teams. 
+
 AfriDash takes players on an adventure through a localised African setting, offering endless runner gameplay.
 
 # Requirements
